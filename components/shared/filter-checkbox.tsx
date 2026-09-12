@@ -2,7 +2,7 @@ import { cn } from "cn"
 import React from "react"
 import { Checkbox } from "../ui"
 
-interface Props {
+export interface FilterCheckboxProps {
   className?: string
   text: string
   value: string
@@ -18,7 +18,7 @@ export function FilterCheckbox({
   onCheckedChange,
   checked,
   className,
-}: Props) {
+}: FilterCheckboxProps) {
   return (
     <div className={cn("flex items-center space-x-2", className)}>
       <Checkbox

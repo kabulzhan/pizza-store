@@ -29,12 +29,12 @@ export default function RootLayout({
       className={cn("antialiased", "font-sans", nunito.variable)}
     >
       <body>
-        <ThemeProvider>
-          <main className="main-h-screen">
-            <Header />
-            {children}
-          </main>
-        </ThemeProvider>
+        {/* <ThemeProvider> */}
+        <main className="main-h-screen">
+          <Header />
+          {children}
+        </main>
+        {/* </ThemeProvider> */}
       </body>
     </html>
   )
