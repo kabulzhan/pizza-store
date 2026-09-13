@@ -50,7 +50,6 @@ export function Filters({ className }: Props) {
       <CheckboxFiltersGroup
         title="Ингредиенты"
         className="mt-5"
-        limit={6}
         items={[
           { text: "Сырный соус", value: "1" },
           { text: "Моццарелла", value: "2" },
